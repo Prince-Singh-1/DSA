@@ -9,62 +9,23 @@
  */
 class Solution {
 public:
-    vector<int> p1;
-    TreeNode* ansp = NULL;
-
-    void prince(TreeNode* root, int x) {
-        if (!root || ansp) return;
-
-        if (root->val == x) {
-            ansp = root;
-            return;
+      TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        // Base case
+        if (root == NULL || root == p || root == q) {
+            return root;
         }
-
-        prince(root->left, x);
-        prince(root->right, x);
-    }
-
-    void helper(TreeNode* root, TreeNode* p, vector<int>& v) {
-        if (!root || !p1.empty()) return;
-
-        v.push_back(root->val);
-
-        if (root == p) {
-            p1 = v;
-            v.pop_back();
-            return;
+        
+        // Search in left and right subtrees
+        TreeNode* left = lowestCommonAncestor(root->left, p, q);
+        TreeNode* right = lowestCommonAncestor(root->right, p, q);
+        
+        // Result
+        if (left == NULL) {
+            return right;
+        } else if (right == NULL) {
+            return left;
+        } else { // Both left and right are not null, we found our result
+            return root;
         }
-
-        helper(root->left, p, v);
-        helper(root->right, p, v);
-
-        v.pop_back();
-    }
-
-    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        vector<int> v;
-
-        helper(root, p, v);
-        vector<int> p2 = p1;
-
-        p1.clear();
-        v.clear();
-
-        helper(root, q, v);
-        vector<int> q2 = p1;
-
-        int x = root->val;
-
-        for (int i = 0; i < min(p2.size(), q2.size()); i++) {
-            if (p2[i] == q2[i])
-                x = p2[i];
-            else
-                break;
-        }
-
-        ansp = NULL;
-        prince(root, x);
-
-        return ansp;
     }
 };
