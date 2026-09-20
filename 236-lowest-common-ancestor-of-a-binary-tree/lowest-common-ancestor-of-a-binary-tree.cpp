@@ -1,33 +1,48 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
- */
 class Solution {
 public:
-TreeNode* ans=NULL;
-    bool check(TreeNode* root,TreeNode* r){
-        if(root==r ) return 1;
-        if(root==NULL) return 0;
-     bool p=   check(root->left,r);
-     bool q=   check(root->right,r);
-        return p||q;
+    vector<TreeNode*> path;
+
+    void findPath(TreeNode* root, TreeNode* x,
+                  vector<TreeNode*>& v) {
+        if (!root || !path.empty()) return;
+
+        v.push_back(root);
+
+        if (root == x) {
+            path = v;
+            v.pop_back();
+            return;
+        }
+
+        findPath(root->left, x, v);
+        findPath(root->right, x, v);
+
+        v.pop_back();
     }
-   void solve(TreeNode* root, TreeNode* p, TreeNode* q){
-        if(!root) return;
-        if(root==p || root==q) {ans=root; return;}
-        bool f1= check(root->left,p);
-        bool f2= check(root->left,q);
-        if( f1 && f2) solve(root->left,p,q);
-       else if(!f1 && !f2) solve(root->right,p,q);
-      else  if( f1 || f2) ans=root;
-    }
-    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-         solve(root,p,q);
-         return ans;
+
+    TreeNode* lowestCommonAncestor(TreeNode* root,
+                                   TreeNode* p,
+                                   TreeNode* q) {
+        vector<TreeNode*> v;
+
+        findPath(root, p, v);
+        vector<TreeNode*> p1 = path;
+
+        path.clear();
+        v.clear();
+
+        findPath(root, q, v);
+        vector<TreeNode*> p2 = path;
+
+        TreeNode* ans = root;
+
+        for (int i = 0; i < min(p1.size(), p2.size()); i++) {
+            if (p1[i] == p2[i])
+                ans = p1[i];
+            else
+                break;
+        }
+
+        return ans;
     }
 };
