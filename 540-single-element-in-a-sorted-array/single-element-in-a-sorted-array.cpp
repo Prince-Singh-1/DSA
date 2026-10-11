@@ -1,18 +1,20 @@
 class Solution {
 public:
     int singleNonDuplicate(vector<int>& a) {
-        int n = a.size();
+        int l = 0, r = a.size() - 1;
 
-        for(int i = 0; i < n; i++) {
-            if(i > 0 && a[i] == a[i - 1])
-                continue;
+        while(l < r) {
+            int m = l + (r - l) / 2;
 
-            if(i + 1 < n && a[i] == a[i + 1])
-                continue;
+            if(m % 2)
+                m--;
 
-            return a[i];
+            if(a[m] == a[m + 1])
+                l = m + 2;
+            else
+                r = m;
         }
 
-        return -1;
+        return a[l];
     }
 };
