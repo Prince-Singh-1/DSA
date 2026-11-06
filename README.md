@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1169-invalid-transactions](https://github.com/Prince-Singh-1/DSA/tree/master/1169-invalid-transactions) |
 | [1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://github.com/Prince-Singh-1/DSA/tree/master/1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period) |
 | [2303-calculate-amount-paid-in-taxes](https://github.com/Prince-Singh-1/DSA/tree/master/2303-calculate-amount-paid-in-taxes) |
+| [2747-count-zero-request-servers](https://github.com/Prince-Singh-1/DSA/tree/master/2747-count-zero-request-servers) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/Prince-Singh-1/DSA/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Simulation
 |  |
@@ -31,12 +32,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1169-invalid-transactions](https://github.com/Prince-Singh-1/DSA/tree/master/1169-invalid-transactions) |
 | [1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://github.com/Prince-Singh-1/DSA/tree/master/1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period) |
+| [2747-count-zero-request-servers](https://github.com/Prince-Singh-1/DSA/tree/master/2747-count-zero-request-servers) |
 ## Sorting
 |  |
 | ------- |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Prince-Singh-1/DSA/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [1169-invalid-transactions](https://github.com/Prince-Singh-1/DSA/tree/master/1169-invalid-transactions) |
 | [1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://github.com/Prince-Singh-1/DSA/tree/master/1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period) |
+| [2747-count-zero-request-servers](https://github.com/Prince-Singh-1/DSA/tree/master/2747-count-zero-request-servers) |
 ## Math
 |  |
 | ------- |
@@ -67,4 +70,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/Prince-Singh-1/DSA/tree/master/3841-palindromic-path-queries-in-a-tree) |
+## Sliding Window
+|  |
+| ------- |
+| [2747-count-zero-request-servers](https://github.com/Prince-Singh-1/DSA/tree/master/2747-count-zero-request-servers) |
 <!---LeetCode Topics End-->
