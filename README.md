@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/Prince-Singh-1/DSA/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Prince-Singh-1/DSA/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [1169-invalid-transactions](https://github.com/Prince-Singh-1/DSA/tree/master/1169-invalid-transactions) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/Prince-Singh-1/DSA/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://github.com/Prince-Singh-1/DSA/tree/master/1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period) |
 | [2303-calculate-amount-paid-in-taxes](https://github.com/Prince-Singh-1/DSA/tree/master/2303-calculate-amount-paid-in-taxes) |
 | [2747-count-zero-request-servers](https://github.com/Prince-Singh-1/DSA/tree/master/2747-count-zero-request-servers) |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Prince-Singh-1/DSA/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [1169-invalid-transactions](https://github.com/Prince-Singh-1/DSA/tree/master/1169-invalid-transactions) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/Prince-Singh-1/DSA/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://github.com/Prince-Singh-1/DSA/tree/master/1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period) |
 | [2747-count-zero-request-servers](https://github.com/Prince-Singh-1/DSA/tree/master/2747-count-zero-request-servers) |
 ## Math
@@ -74,4 +76,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2747-count-zero-request-servers](https://github.com/Prince-Singh-1/DSA/tree/master/2747-count-zero-request-servers) |
+## Two Pointers
+|  |
+| ------- |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/Prince-Singh-1/DSA/tree/master/1385-find-the-distance-value-between-two-arrays) |
+## Binary Search
+|  |
+| ------- |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/Prince-Singh-1/DSA/tree/master/1385-find-the-distance-value-between-two-arrays) |
 <!---LeetCode Topics End-->
