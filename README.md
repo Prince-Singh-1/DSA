@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/Prince-Singh-1/DSA/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/Prince-Singh-1/DSA/tree/master/2483-minimum-penalty-for-a-shop) |
 ## Array
 |  |
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Prince-Singh-1/DSA/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [1169-invalid-transactions](https://github.com/Prince-Singh-1/DSA/tree/master/1169-invalid-transactions) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/Prince-Singh-1/DSA/tree/master/1385-find-the-distance-value-between-two-arrays) |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/Prince-Singh-1/DSA/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://github.com/Prince-Singh-1/DSA/tree/master/1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period) |
 | [2303-calculate-amount-paid-in-taxes](https://github.com/Prince-Singh-1/DSA/tree/master/2303-calculate-amount-paid-in-taxes) |
 | [2747-count-zero-request-servers](https://github.com/Prince-Singh-1/DSA/tree/master/2747-count-zero-request-servers) |
@@ -49,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/Prince-Singh-1/DSA/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Prince-Singh-1/DSA/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/Prince-Singh-1/DSA/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [2409-count-days-spent-together](https://github.com/Prince-Singh-1/DSA/tree/master/2409-count-days-spent-together) |
 ## Divide and Conquer
 |  |
@@ -86,4 +89,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/Prince-Singh-1/DSA/tree/master/1385-find-the-distance-value-between-two-arrays) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/Prince-Singh-1/DSA/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 <!---LeetCode Topics End-->
